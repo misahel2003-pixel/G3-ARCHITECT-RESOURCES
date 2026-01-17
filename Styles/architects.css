@@ -196,6 +196,19 @@ width: 100%;
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* footer related style */
+.footer-section{
+    background-color: #FFF2E7;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 100px 20px;
+}
+
+.footer-section p {
+    margin: 0;
+    font-size: 14px;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -223,6 +236,10 @@ width: 100%;
     margin-top: 20px;
     margin-left: 20px;
    }
+   .footer-section{
+    margin: 40px 15px;
+    padding: 20px 10px;
+   }
 }
 
 /* medium size device */
@@ -242,5 +259,8 @@ width: 100%;
     #experience-badge{
     margin-top: 20px;
     margin-left: 20px;
+   }
+   .footer-section{
+    margin: 60px 30px;
    }
 }
